@@ -1,5 +1,6 @@
 ####1. Define proto file 
 (e.g. com/example/proto/HelloService.proto)
+
 ####2. Generate sources:
 #####2.1 Using protocol buffer compiler:
 `protoc --plugin=protoc-gen-grpc-java=$PATH_TO_PLUGIN -I=$SRC_DIR 
